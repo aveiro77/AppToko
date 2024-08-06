@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/06 20:39:16.000.534,=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/06 20:39:46.000.807,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.dfm=F:\EXPERIMENTAL\Delphi\AppToko\Unit1.dfm</Transaction>
+    <Transaction>2024/08/06 20:39:46.000.807,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas=F:\EXPERIMENTAL\Delphi\AppToko\Unit1.pas</Transaction>
+    <Transaction>2024/08/06 20:39:59.000.144,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Project1.dproj=F:\EXPERIMENTAL\Delphi\AppToko\AppToko.dproj</Transaction>
+    <Transaction>2024/08/06 20:55:29.000.749,=F:\EXPERIMENTAL\Delphi\AppToko\Unit2.pas</Transaction>
+    <Transaction>2024/08/06 20:56:46.000.986,F:\EXPERIMENTAL\Delphi\AppToko\Unit2.dfm=F:\EXPERIMENTAL\Delphi\AppToko\UDaftarBarang.dfm</Transaction>
+    <Transaction>2024/08/06 20:56:46.000.986,F:\EXPERIMENTAL\Delphi\AppToko\Unit2.pas=F:\EXPERIMENTAL\Delphi\AppToko\UDaftarBarang.pas</Transaction>
+    <Transaction>2024/08/06 21:38:57.000.763,F:\EXPERIMENTAL\Delphi\AppToko\UDaftarBarang.pas=</Transaction>
+    <Transaction>2024/08/06 21:39:42.000.599,=F:\EXPERIMENTAL\Delphi\AppToko\Unit2.pas</Transaction>
+    <Transaction>2024/08/06 21:39:55.000.981,F:\EXPERIMENTAL\Delphi\AppToko\Unit2.dfm=F:\EXPERIMENTAL\Delphi\AppToko\UnitBarang.dfm</Transaction>
+    <Transaction>2024/08/06 21:39:55.000.981,F:\EXPERIMENTAL\Delphi\AppToko\Unit2.pas=F:\EXPERIMENTAL\Delphi\AppToko\UnitBarang.pas</Transaction>
+    <Transaction>2024/08/06 22:15:45.000.821,=F:\EXPERIMENTAL\Delphi\AppToko\Unit2.pas</Transaction>
+    <Transaction>2024/08/06 22:16:31.000.703,F:\EXPERIMENTAL\Delphi\AppToko\Unit2.dfm=F:\EXPERIMENTAL\Delphi\AppToko\uDataModule.dfm</Transaction>
+    <Transaction>2024/08/06 22:16:31.000.703,F:\EXPERIMENTAL\Delphi\AppToko\Unit2.pas=F:\EXPERIMENTAL\Delphi\AppToko\uDataModule.pas</Transaction>
+  </Transactions>
+</BorlandProject>

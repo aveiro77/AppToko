@@ -1,0 +1,56 @@
+unit UnitBarang;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TFormDaftarBarang = class(TForm)
+    Panel1: TPanel;
+    Label1: TLabel;
+    Label2: TLabel;
+    EditNama: TEdit;
+    EditSatuan: TEdit;
+    Label3: TLabel;
+    Label4: TLabel;
+    EditBeli: TEdit;
+    EditJual: TEdit;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    procedure TekanEnter(Sender: TObject; var Key: Char);
+    procedure Button3Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormDaftarBarang: TFormDaftarBarang;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFormDaftarBarang.Button3Click(Sender: TObject);
+begin
+  EditNama.Text:='';
+  EditSatuan.Text:='';
+  EditBeli.Text:='';
+  EditJual.Text:='';
+end;
+
+procedure TFormDaftarBarang.TekanEnter(Sender: TObject; var Key: Char);
+begin
+  if Key=#13 then
+  begin
+    if Sender=editNama then editSatuan.SetFocus;
+    if Sender=editSatuan then editBeli.SetFocus;
+    if Sender=editBeli then editJual.SetFocus;
+  end;
+end;
+
+end.
