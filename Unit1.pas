@@ -4,45 +4,63 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ComCtrls, Vcl.Menus, Vcl.Buttons,
-  Vcl.ExtCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.StdActns, System.Actions,
+  Vcl.ActnList;
 
 type
-  TForm1 = class(TForm)
-    StatusBar1: TStatusBar;
-    Panel1: TPanel;
+  TMainFrm = class(TForm)
     MainMenu1: TMainMenu;
     DataMaster1: TMenuItem;
     DaftarBarang1: TMenuItem;
-    DaftarBarang2: TMenuItem;
+    DaftarSuplier1: TMenuItem;
+    DaftarSuplier2: TMenuItem;
     ransaksi1: TMenuItem;
+    Pembelian1: TMenuItem;
+    Penjualan1: TMenuItem;
+    Laporan1: TMenuItem;
     Window1: TMenuItem;
-    procedure BtnBarangClick(Sender: TObject);
+    Window2: TMenuItem;
+    ActionList1: TActionList;
+    Action1: TAction;
+    WindowClose1: TWindowClose;
+    WindowCascade1: TWindowCascade;
+    WindowTileHorizontal1: TWindowTileHorizontal;
+    WindowTileVertical1: TWindowTileVertical;
+    WindowMinimizeAll1: TWindowMinimizeAll;
+    WindowArrange1: TWindowArrange;
+    WindowArrange2: TWindowArrange;
+    WindowTileHorizontal2: TWindowTileHorizontal;
+    ileHorizontally1: TMenuItem;
+    WindowTileVertical2: TWindowTileVertical;
+    ileVertically1: TMenuItem;
+    N1: TMenuItem;
+    WindowMinimizeAll2: TWindowMinimizeAll;
+    MinimizeAll1: TMenuItem;
     procedure DaftarBarang1Click(Sender: TObject);
   private
     { Private declarations }
   public
     { Public declarations }
-
   end;
 
 var
-  Form1: TForm1;
+  MainFrm: TMainFrm;
 
 implementation
 
 {$R *.dfm}
 
-uses UDaftarBarang, UnitBarang;
+uses UBarang;
 
-procedure TForm1.BtnBarangClick(Sender: TObject);
+procedure TMainFrm.DaftarBarang1Click(Sender: TObject);
 begin
-    FormDaftarBarang.Show;
-end;
-
-procedure TForm1.DaftarBarang1Click(Sender: TObject);
-begin
-  FormDaftarBarang.Show;
+  Screen.Cursor := crHourGlass;
+  with TBarangFrm.Create(Self) do
+  begin
+    DaftarBarang1.Enabled:=false;
+    Screen.Cursor := crDefault;
+    Show;
+  end;
 end;
 
 end.

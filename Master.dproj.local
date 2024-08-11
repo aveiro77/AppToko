@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024/08/11 21:03:53.112,=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/11 21:04:25.388,F:\EXPERIMENTAL\Delphi\AppMaster\Unit1.dfm=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/08/11 21:04:25.388,F:\EXPERIMENTAL\Delphi\AppMaster\Unit1.pas=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/11 21:04:35.266,F:\EXPERIMENTAL\Delphi\AppMaster\Master.dproj=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/08/11 21:11:59.554,=F:\EXPERIMENTAL\Delphi\AppMaster\Unit2.pas</Transaction>
+    <Transaction>2024/08/11 21:12:26.816,F:\EXPERIMENTAL\Delphi\AppMaster\UBarang.pas=F:\EXPERIMENTAL\Delphi\AppMaster\Unit2.pas</Transaction>
+    <Transaction>2024/08/11 21:12:26.816,F:\EXPERIMENTAL\Delphi\AppMaster\UBarang.dfm=F:\EXPERIMENTAL\Delphi\AppMaster\Unit2.dfm</Transaction>
+    <Transaction>2024/08/11 21:14:38.205,=F:\EXPERIMENTAL\Delphi\AppMaster\Unit2.pas</Transaction>
+    <Transaction>2024/08/11 21:15:02.478,F:\EXPERIMENTAL\Delphi\AppMaster\USuplier.pas=F:\EXPERIMENTAL\Delphi\AppMaster\Unit2.pas</Transaction>
+    <Transaction>2024/08/11 21:15:02.478,F:\EXPERIMENTAL\Delphi\AppMaster\USuplier.dfm=F:\EXPERIMENTAL\Delphi\AppMaster\Unit2.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
